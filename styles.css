@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    color: black;
+    padding: 2% 10%;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+
+}
+
+.boxes {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    border-color: red;
+}
+
+h1 { 
+    color: white ;
+    font-size: 4em ;
+    text-align: center;
+}
+
+li {
+    font-style: italic;
+    text-align: left;
+}
+.foto {
+    float: right;
+    
+}
+.dates {
+    color: red;
+}
+.title {
+    margin-bottom: 20px;
+    border-style: dashed;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="foto"] {
+      height: 100px;
+      width: 100px;
+    }
+    h1 {
+        color:green;
+    }
+}
