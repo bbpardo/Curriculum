@@ -20,16 +20,28 @@ body {
     border-color: red;
 }
 
+#dates2 {
+    display: none;
+}
+
 h1 { 
     color: white ;
     font-size: 4em ;
     text-align: center;
 }
 
-li {
-    font-style: italic;
-    text-align: left;
+.foot {
+    display: flex;
+    margin: 10px 200px;
+
 }
+.logos {
+    display: block;
+    text-align: center;
+    margin: 1%;
+
+}
+
 .foto {
     float: right;
     
@@ -50,5 +62,11 @@ li {
     }
     h1 {
         color:green;
+    }
+    .foot {
+        display: block;
+        margin: 30%;
+        ;
+        
     }
 }
