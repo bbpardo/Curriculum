@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    color: black;
+    padding: 2% 10%;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 20px;
+
+}
+
+.boxes {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    border-color: red;
+}
+
+#dates2 {
+    display: none;
+}
+
+.bartool{
+    display: inline;
+    list-style-type: none;
+    
+}
+.bartool2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.foot {
+    display: flex;
+    margin: 10px 200px;
+
+}
+.logos {
+    display: block;
+    text-align: center;
+    margin: 1%;
+
+}
+
+.foto {
+    float: right;
+    
+}
+.dates {
+    color: red;
+}
+.title {
+    margin-bottom: 20px;
+    border-style: dashed;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="foto"] {
+      height: 100px;
+      width: 100px;
+    }
+    h1 {
+        color:green;
+    }
+    .foot {
+        display: block;
+        margin: 20%;
+        position: absolute;
+        padding-right: 40%;
+    }
+}
