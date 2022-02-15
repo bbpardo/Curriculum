@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: auto;
+    margin: 20px;
 
 }
 
@@ -22,6 +23,19 @@ body {
 
 #dates2 {
     display: none;
+}
+
+.bartool{
+    display: inline;
+    list-style-type: none;
+    
+}
+.bartool2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 h1 { 
