@@ -1,0 +1,7 @@
+.article{
+    display: flex;
+    flex-direction: column;
+}
+.read{
+    align-self: right;
+}
