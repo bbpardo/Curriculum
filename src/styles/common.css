@@ -1,6 +1,10 @@
 body{
     margin: 5%;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .bartool {
     background-color: black;
     font-family: Verdana, sans-serif;
