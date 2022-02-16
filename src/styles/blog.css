@@ -1,7 +1,11 @@
-.article{
+.wrapper2{
+    display: flex;
+    border: 2px solid black;
+}
+.articles{
     display: flex;
     flex-direction: column;
 }
 .read{
-    align-self: right;
+   align-self: end; 
 }
