@@ -1,18 +1,6 @@
 body{
     margin: 5%;
 }
-
-.wrapper{
-    display: flex;
-    flex-direction: column;
-}
-.boxes {
-    display: block;
-    margin: 10px;
-    background-color: blue;
-    border: 10px double black;
-    padding: 10px;
-}
 .bartool {
     background-color: black;
     font-family: Verdana, sans-serif;
@@ -22,12 +10,6 @@ body{
     display: inline-block;
     background-color: aqua;
     
-}
-.dates {
-    color: red;
-}
-.foto{
-    float: right;
 }
 .foot{
     display: flex;
