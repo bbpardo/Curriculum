@@ -1,12 +1,11 @@
 .wrapper2{
     display: flex;
-    border: 2px solid black;
-    flex-grow: 1;
 }
 .arti{
     display: flex;
     flex-direction: column;
     flex-grow: 3;
+    justify-content: space-evenly;
 }
 .cate{
     display: flex;

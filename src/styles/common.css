@@ -1,13 +1,18 @@
 body{
     margin: 5%;
+    background-image: url("/img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     display: flex;
-    align-self: center;
+    justify-content: center;
 }
 .wrapper{
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .bartool {
     display: flex;
