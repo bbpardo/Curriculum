@@ -1,17 +1,21 @@
 body{
     margin: 5%;
 }
+header{
+    display: flex;
+    align-self: center;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
 }
 .bartool {
-    background-color: black;
-    font-family: Verdana, sans-serif;
-    font-size: 15px;
+    display: flex;
+    background-color: black; 
+    justify-content: space-around;
 }
-.bartool2{
-    display: inline-block;
+.bartool2{  
+    display: inline;
     background-color: aqua;
     
 }
@@ -21,7 +25,6 @@ body{
 }
 .logos {
     display: block;
-    text-align: center;
 }
 @media only screen and (max-width: 768px) {
     .foot {
