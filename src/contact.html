@@ -14,24 +14,26 @@
     <!--Titulo-->
         <header>
             <H1>Contacte conmigo</H1>
-        </header>
-
-<!--Formulario-->
-    <section>
-        <form action="/contact.html" method="POST">
-            <input type="text" name="name" id="fname" placeholder="Nombre Completo">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-        </form>
-    </section>    
+        </header>   
 <!-- Barra de navegacion-->
-        <nav>
+        <nav class="bartool">
             <ul class="bartool">
                 <li class="bartool2"><a href="/index.html">Curriculum</a></li>
                 <li class="bartool2"><a href="/contact.html">Contacte conmigo</a></li>
                 <li class="bartool2"><a href="/blog.html">Blog</a></li>
             </ul>
         </nav>
+<!--Formulario-->
+        <section>
+            <form action="/contact.html" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="fname" placeholder="Nombre Completo">
+                <label for="email">Correo electronico</label>
+                <input type="text" name="email" id="email" placeholder="Ponga su email de contacto">
+                <label for="motivo"></label>
+                <input type="text" name="motivo" id="motivo" placeholder="Escriba su motivo de contacto">
+            </form>
+        </section> 
     </div><!--Cierre wrapper-->
 <!--Final de pagina-->
     <footer>

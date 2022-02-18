@@ -18,6 +18,7 @@ header{
     display: flex;
     background-color: black; 
     justify-content: space-around;
+    flex-grow: 1;
 }
 .bartool2{  
     display: inline;
